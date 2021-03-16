@@ -1,2 +1,2 @@
-# Iut2020-2021Erp
+# ERPOdooIutDevice
 Cours d'erp, création de modules custom pour ODOO
