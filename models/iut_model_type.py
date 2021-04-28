@@ -2,8 +2,9 @@ from odoo import api, fields, models
 
 class IutItModeleType():
 
-    _name = ""
-    _model_ids = ""
+    _name = "iut.it.model"
 
-    name = fields.Char(required=True)
-    modelIds = fields.Integer()
+    name = fields.Char(string="name", required=True)
+
+    # Permet de faire le lien BD *...*, ici avec la classe model
+    modelIds = fields.Many2many('iut.it.model')
