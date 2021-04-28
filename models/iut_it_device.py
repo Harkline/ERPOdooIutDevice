@@ -1,7 +1,7 @@
-from odoo import api, fields, models
+from odoo import fields, models
 
 #models.Model()
-class IutItDevice():
+class IutItDevice(models.Model):
     _name = "iut.it.device"
 
     name = fields.Char(string='Iut_device', required=True)
@@ -12,4 +12,4 @@ class IutItDevice():
 
     # Permet de faire le lien BD *...1
     modelId = fields.Many2one('iut.it.model')
-    partnerId = fields.Many2one('res.partner')
+    #partnerId = fields.Many2one('res.partner')

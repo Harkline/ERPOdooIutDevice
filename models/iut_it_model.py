@@ -1,6 +1,6 @@
-from odoo import api, fields, models
+from odoo import fields, models
 
-class IutItModel():
+class IutItModel(models.Model):
 
     _name = "iut.it.model"
 
@@ -14,5 +14,5 @@ class IutItModel():
     #Permet de faire le lien BD *...* ou *...1 ou 1..*
     typeIds = fields.Many2many('iut.model.type')
     brandId = fields.Many2one('iut.it.brand')
-    deviceId = fields.One2many('iut.it.device', 'iut_it_device.IutItDevice.modelId')
+    deviceId = fields.One2many('iut.it.device', 'modelId')
 

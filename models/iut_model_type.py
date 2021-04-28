@@ -1,8 +1,8 @@
-from odoo import api, fields, models
+from odoo import fields, models
 
-class IutItModeleType():
+class IutItModelType(models.Model):
 
-    _name = "iut.it.model"
+    _name = "iut.model.type"
 
     name = fields.Char(string="name", required=True)
 
