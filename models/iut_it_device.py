@@ -12,4 +12,3 @@ class IutItDevice(models.Model()): #
     serialNumber = fields.Char(string='serial_number', required=True)
     datePurchase = fields.Date(string='date_purchase')
     dateWarrantyEnd = fields.Date(string='Date_Warranty_end')
-    description = fields.Text("Devices")
