@@ -27,12 +27,12 @@
     # Ajouter les vues ici (.xml)
     'data': [
         # 'security/ir.model.access.csv',
-        'arborescence_menu_view.xml'
-        'iut_it_brand_view.xml',
-        'iut_it_device_view.xml',
-        'iut_it_model_view.xml',
-        'iut_model_type_view.xml',
-        'res_partner.xml',
+        'views/iut_it_device_view.xml',
+        'views/iut_it_brand_view.xml',
+        'views/arborescence_menu_view.xml',
+        'views/iut_it_model_view.xml',
+        'views/iut_model_type_view.xml',
+        'views/res_partner.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
