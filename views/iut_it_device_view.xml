@@ -1,4 +1,33 @@
-<record id="id_iut_id_device_view" model="iut.it.device">
-    <fields name = "device"> DeviceName </fields>
-</record>
+<odoo>
+    <data>
+        <!-- Odoo a besoin de champs "prédéfini", exemple : <field name = "name"> /!\ IL NE FAUT PAS CHANGER L'ATTRIBUT NAME-->
+        <!-- Vue -->
+
+        <!-- nom de la vue -->
+        <!-- le modèle lié -->
+        <!-- indique la priorité de l'affichage du menu, par défaut, c'est le menu avec la plus faible valeur qui est affiché -->
+        <!-- à partir de là on indique ce qu'on va afficher -->
+        <!-- disposition de l'affichage tre = liste par exemple -->
+        <!-- champs que l'on voit -->
+        <record id ="id_iut_id_device_view" model="ir.ui.view">
+            <field name = "name">Device.View</field>
+            <field name = "model">iut.it.device</field>
+            <field name = "priority">1</field>
+            <field name = "arch" type="xml">
+                <tree string = "Device">
+                    <field name = "dateAllocation"></field>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Action -->
+        <record id="form_action_device" model="ir.actions.act_window">
+            <field name = "name"> DeviceName </field>
+            <field name = "type"> ir.actions.act_windows</field>
+            <field name = "res_model">iut.it.device</field>
+            <field name = "view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>
+
 
