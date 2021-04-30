@@ -1,0 +1,4 @@
+<record id="id_iut_id_device_view" model="iut.it.device">
+    <fields name = "device"> DeviceName </fields>
+</record>
+
