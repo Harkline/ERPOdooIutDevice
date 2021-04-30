@@ -4,6 +4,8 @@ class IutItBrand(models.Model):
 
     _name = "iut.it.brand"
 
+    _python_sql_constraints_Unique_Key = [('name_uniq', 'unique (name)', 'name is a unique key, violation of constraint !')]
+
     name = fields.Char(required=True)
     warrantyDelayMonth = fields.Integer(string="warrantyDelayMonth")
     supportPhone = fields.Integer(string="supportPhone")
