@@ -24,6 +24,7 @@
     'depends': ['base'],
 
     # always loaded
+    # Ajouter les vues ici (.xml)
     'data': [
         # 'security/ir.model.access.csv',
     ],

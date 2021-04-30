@@ -12,4 +12,4 @@ class IutItDevice(models.Model):
 
     # Permet de faire le lien BD *...1
     modelId = fields.Many2one('iut.it.model')
-    #partnerId = fields.Many2one('res.partner')
+    partnerId = fields.Many2one('res.partner')
