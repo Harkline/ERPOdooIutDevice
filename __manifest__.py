@@ -27,6 +27,7 @@
     # Ajouter les vues ici (.xml)
     'data': [
         # 'security/ir.model.access.csv',
+        'arborescence_menu_view.xml'
         'iut_it_brand_view.xml',
         'iut_it_device_view.xml',
         'iut_it_model_view.xml',
