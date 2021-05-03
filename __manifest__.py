@@ -26,14 +26,13 @@
     # always loaded
     # Ajouter les vues ici (.xml)
     'data': [
-        # 'security/ir.model.access.csv',
+        #'security/ir.model.access.csv',
         'views/iut_it_device_view.xml',
         'views/iut_it_brand_view.xml',
         'views/iut_it_model_view.xml',
         'views/iut_model_type_view.xml',
         'views/res_partner_view.xml',
         'views/arborescence_menu_view.xml'
-
     ],
     # only loaded in demonstration mode
     'demo': [
