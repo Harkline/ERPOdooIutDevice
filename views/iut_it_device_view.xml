@@ -15,7 +15,11 @@
             <field name = "priority">1</field>
             <field name = "arch" type="xml">
                 <tree string = "Device">
+                    <field name = "name"></field>
+                    <field name = "serialNumber"></field>
                     <field name = "dateAllocation"></field>
+                    <field name = "serialNumber"></field>
+                    <field name = "dateWarrantyEnd"></field>
                 </tree>
             </field>
         </record>

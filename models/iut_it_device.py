@@ -4,11 +4,11 @@ from odoo import fields, models
 class IutItDevice(models.Model):
     _name = "iut.it.device"
 
-    name = fields.Char(string='Iut_device', required=True)
-    dateAllocation = fields.Date(string='allocation_date')
-    serialNumber = fields.Char(string='serial_number', required=True)
-    datePurchase = fields.Date(string='date_purchase')
-    dateWarrantyEnd = fields.Date(string='Date_Warranty_end')
+    name = fields.Char(string='Name', required=True)
+    dateAllocation = fields.Date(string="Allocation's date")
+    serialNumber = fields.Char(string="Serial's number", required=True)
+    datePurchase = fields.Date(string="Purchase's date")
+    dateWarrantyEnd = fields.Date(string='End Of warranty')
 
     # Permet de faire le lien BD *...1
     modelId = fields.Many2one('iut.it.model')
