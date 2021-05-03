@@ -1,0 +1,7 @@
+<odoo>
+    <data>
+        <!--Menus-->
+        <menuitem name="Devices" id="deviceMenuId" action="form_action_device" sequence="84"/>
+
+    </data>
+</odoo>
