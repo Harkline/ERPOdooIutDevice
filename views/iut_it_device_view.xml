@@ -26,13 +26,11 @@
 
         <!-- Action -->
         <record id="form_action_device" model="ir.actions.act_window">
-            <field name = "name">DeviceName </field>
+            <field name = "name">Device</field>
             <field name = "type">ir.actions.act_window</field>
             <field name = "res_model">iut.it.device</field>
             <field name = "view_mode">tree,form</field>
         </record>
-
-
     </data>
 </odoo>
 
