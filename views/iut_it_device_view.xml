@@ -18,7 +18,7 @@
                     <field name = "name"></field>
                     <field name = "serialNumber"></field>
                     <field name = "dateAllocation"></field>
-                    <field name = "serialNumber"></field>
+                    <field name = "datePurchase"></field>
                     <field name = "dateWarrantyEnd"></field>
                 </tree>
             </field>
