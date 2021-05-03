@@ -25,7 +25,7 @@
             <field name = "name">Model's Type</field>
             <field name = "type">ir.actions.act_window</field>
             <field name = "res_model">iut.model.type</field>
-            <field name = "view_mode">tree</field>
+            <field name = "view_mode">tree,form</field>
         </record>
     </data>
 </odoo>

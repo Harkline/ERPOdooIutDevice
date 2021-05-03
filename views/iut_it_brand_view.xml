@@ -27,7 +27,7 @@
             <field name = "name">Brand</field>
             <field name = "type">ir.actions.act_window</field>
             <field name = "res_model">iut.it.brand</field>
-            <field name = "view_mode">tree</field>
+            <field name = "view_mode">tree,form</field>
         </record>
 
 
