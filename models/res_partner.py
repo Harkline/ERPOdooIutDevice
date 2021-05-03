@@ -7,8 +7,8 @@ class ResPartner(models.Model):
 
     _name = "res.partner"
 
-    employeeRef = fields.Char(string='employeeRef')
-    ref = fields.Char(string='ref')
+    employeeRef = fields.Char(string="Employee's Reference")
+    ref = fields.Char(string="Reference")
 
     # Permet de faire le lien BD 1...*
     deviceIds = fields.One2many('iut.it.device', 'partnerId')

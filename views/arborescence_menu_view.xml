@@ -4,5 +4,7 @@
         <menuitem name="Devices" id="deviceMenuId" action="form_action_device" sequence="84"/>
         <menuitem name="Brands" id="brandMenuId" action="form_action_brand" parent="deviceMenuId" sequence="20"/>
         <menuitem name="Models" id="modelMenuId" action="form_action_model" parent="deviceMenuId" sequence="20"/>
+        <menuitem name="Models' type" id="modelTypeMenuId" action="form_action_modelType" parent="deviceMenuId" sequence="20"/>
+        <menuitem name="Partner" id="resPartnerMenuId" action="form_action_resPartner" parent="deviceMenuId" sequence="20"/>
     </data>
 </odoo>
